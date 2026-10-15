@@ -1,3 +1,5 @@
+const brandStyle = document.createElement('link'); brandStyle.rel = 'stylesheet'; brandStyle.href = 'brand.css'; document.head.appendChild(brandStyle);
+const brandFavicon = document.createElement('link'); brandFavicon.rel = 'icon'; brandFavicon.type = 'image/png'; brandFavicon.href = 'assets/cloud9-favicon.png'; document.head.appendChild(brandFavicon);
 const qs = (s, p = document) => p.querySelector(s);
 const qsa = (s, p = document) => [...p.querySelectorAll(s)];
 
